@@ -45,7 +45,7 @@ Each Pull Request should pass the tests, and the linter to be accepted.
 
 ```sh
 # Tests
-$ docker run -p 7700:7700 getmeili/meilisearch:latest ./meilisearch --master-key=masterKey --no-analytics
+$ docker run -p 7700:7700 getmeili/meilisearch:latest ./meilisearch --master-key=masterKey --no-analytics=true
 $ composer test:unit
 # Linter
 $ composer lint:check
